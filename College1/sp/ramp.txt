@@ -1,0 +1,17 @@
+clear all
+close all
+clc
+
+n1=-10;
+n2=10;
+n=0;
+x=n1:n2;
+y=x.*(x-n>=0);
+
+figure
+stem(x,y,'r','LineWidth',4)
+xlabel('Time axis')
+ylabel('Amplitude')
+title('\bf\color{blue}\fontsize{20}Ramp Signal')
+grid on
+axis tight

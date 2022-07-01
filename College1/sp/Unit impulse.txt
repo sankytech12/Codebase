@@ -1,0 +1,17 @@
+clear all
+close all
+clc
+
+n1=-10;
+n2=10;
+n=0;
+x=n1:n2;
+y=(x-n==0);
+
+figure
+stem(x,y,'r','LineWidth',1)
+xlabel('Time axis')
+ylabel('Amplitude')
+title('\bf\color{magenta}\fontsize{10}Unit Impulse')
+grid on
+axis tight

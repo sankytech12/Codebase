@@ -1,0 +1,12 @@
+clear all
+close all
+clc
+
+fs=1000;
+f=2;
+t=0:1/fs:1-1/fs;
+y=sin(2*pi*f*t);
+
+figure
+plot(t,y,'y','LineWidth',5);
+grid on

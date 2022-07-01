@@ -1,0 +1,12 @@
+clear all
+close all
+clc
+
+fs=10000;
+f=10;
+t=0:1/fs:30-1/fs;
+y=10*square(2*pi*1/f*t);
+
+figure
+stem(t,y);
+grid on
